@@ -7,6 +7,7 @@ export interface TvShow{
   startDate: number,
   endDate?: number,
   rating?: number,
+  imageSrc?: string,
   numberOfReviews: number,
   description: string,
   comments: Comment[]

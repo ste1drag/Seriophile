@@ -9,7 +9,7 @@ export class TvShowFacadeService {
 
   constructor(private tvShowService: TvShowService) { }
 
-  public getAllShows(): TvShow[] {
+  public  getAllShows(): TvShow[] {
     return this.tvShowService.tvShows;
   }
 

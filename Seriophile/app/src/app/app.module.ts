@@ -9,11 +9,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { MatListModule } from "@angular/material/list";
 import {MatToolbarModule} from "@angular/material/toolbar";
 import {MatIconModule} from "@angular/material/icon";
+import { CommentComponent } from './comment/comment.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavComponent
+    NavComponent,
+    CommentComponent,
   ],
   imports: [
     BrowserModule,
